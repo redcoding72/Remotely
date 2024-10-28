@@ -1,1 +1,1 @@
-# Remotely
+Remotely est une application open-source qui permet la gestion à distance des ordinateurs et des serveurs, permettant aux utilisateurs d'effectuer du support technique à distance, de partager l'écran et de prendre le contrôle de périphériques de manière sécurisée. Elle offre des fonctionnalités telles que le contrôle à distance, le partage d’écran, le transfert de fichiers, et bien plus.
