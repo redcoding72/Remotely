@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  remotely:
+    image: translucency/remotely
+    container_name: remotely
+    environment:
+      - ASPNETCORE_URLS=http://+:5000
+      - ConnectionStrings__RemotelyDatabase="Data Source=remotely.db"
+    ports:
+      - "5000:5000"
+    volumes:
+      - remotely_data:/app/Data
+volumes:
+  remotely_data:
